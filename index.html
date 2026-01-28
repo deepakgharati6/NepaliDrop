@@ -371,10 +371,18 @@
             // Initialize Peer with high-performance configuration
             peer = new Peer(myPeerId, {
                 config: {
-                    'iceServers': [
-                        { url: 'stun:stun.l.google.com:19302' },
-                        { url: 'stun:stun1.l.google.com:19302' }
-                    ]
+                  'iceServers': [
+                      // STUN for fast NAT discovery
+    { urls: 'stun:stun.l.google.com:19302' },
+    { urls: 'stun:stun1.l.google.com:19302' },
+
+    // TURN for firewall / strict NAT fallback
+    {
+        urls: 'turn:numb.viagenie.ca',
+        username: 'webrtc@live.com',
+        credential: 'muazkh'
+    }
+]
                 },
                 debug: 1
             });
