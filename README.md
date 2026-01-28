@@ -40,27 +40,6 @@ No uploads. No tracking. No servers storing your files.
 
 ---
 
-## 📸 Screenshots
-
-> _(Add screenshots here if available)_
-
-/screenshots/
-├── home.png
-├── create-room.png
-├── transfer.png
-
-
----
-
-## 🚀 Getting Started
-
-### 1️⃣ Clone the Repository
-```bash
-git clone [https://github.com/your-username/byteshaladrop.git](https://drop.nepalik.com.np/)
-2️⃣ Open in Browser
-Just open index.html in your browser
-or host it on any static hosting (GitHub Pages, Netlify, Vercel).
-
 🌍 Live Demo
 👉 https://drop.nepalik.com.np
 
@@ -73,36 +52,6 @@ PeerJS is used only for signaling
 
 Actual file transfer is peer-to-peer
 
-📦 APK / Android App
-This web app can be converted into an Android APK using:
-
-PWABuilder
-
-Trusted Web Activity (TWA)
-
-Android WebView
-
-🧠 Future Improvements
-📁 Multiple file transfer
-
-📊 Transfer speed indicator
-
-🔁 Resume interrupted transfers
-
-📱 Native Android App
-
-🌐 TURN server support
-
-🤝 Contributing
-Contributions, issues, and feature requests are welcome!
-
-Fork the repo
-
-Create your feature branch
-
-Commit changes
-
-Open a Pull Request
 
 📄 License
 This project is licensed under the MIT License.
@@ -110,17 +59,3 @@ This project is licensed under the MIT License.
 👨‍💻 Author
 ByteShala
 🌐 https://byteshala.com (https://deepakgharti.com.np)
-
-Built with ❤️ for secure and private file sharing
-
-
----
-
-यदि चाहियो भने म:
-- 📄 **short README (minimal)**
-- 🧾 **Play Store description**
-- 🖼️ **README badges**
-- 📦 **GitHub Pages deploy steps**
-
-पनि तयार गरिदिन्छु 😄  
-बस भन: **“README enhance गर”** 🚀
